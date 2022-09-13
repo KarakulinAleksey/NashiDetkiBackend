@@ -12,7 +12,7 @@ const timeLog = (req, res, next) => {
   };
   
 app.use(timeLog);
-
+                               
 app.use(bodyParser.json());
 
 app.use('/animal', router);
